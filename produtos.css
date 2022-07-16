@@ -1,0 +1,90 @@
+body {
+    --largura-pagina: 940px;
+    --laranja-mostarda: #C78C19;
+}
+
+header {
+    background-color: #bbb;
+    padding: 1.25em 0;
+}
+
+.container {
+    position: relative;
+    width: var(--largura-pagina);
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 1em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--laranja-mostarda);
+    text-decoration: underline;
+}
+
+#listaProdutos {
+    width: var(--largura-pagina);
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#listaProdutos li {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 25px;
+    border: medium solid #000;
+    border-radius: 1em;
+}
+
+#listaProdutos li:hover {
+    border-color: var(--laranja-mostarda);
+    font-size: 1.25em;
+}
+
+#listaProdutos h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.produto-preco {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.produto-descricao {
+    font-size: 1.2em;
+}
+
+footer {
+    background-image: url('./assets/img/bg.jpg');
+    background-color: #1b1d1c;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 0.75em;
+    margin-top: 1em;
+}
