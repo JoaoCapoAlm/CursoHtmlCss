@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
     --largura-pagina: 940px;
     --laranja-mostarda: #C78C19;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        --largura-pagina: 100%
+    }
 }
 
 header {
@@ -49,4 +58,10 @@ footer {
     color: #fff;
     font-size: 0.75em;
     margin-top: 1em;
+}
+
+@media screen and (max-width:480px) {
+    nav {
+        position: static;
+    }
 }
