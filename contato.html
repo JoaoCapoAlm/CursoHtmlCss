@@ -22,7 +22,7 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="container">
         <form onsubmit="alert('Formulário enviado!');">
             <label for="txtNome">Nome e sobrenome</label>
             <input type="text" id="txtNome" class="input-padrao" required />
@@ -49,28 +49,30 @@
             <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
             <button type="submit" class="btnSubmit">Enviar formulário</button>
         </form>
-        <table>
-            <thead>
-                <tr>
-                    <th scope="col">Dia</th>
-                    <th scope="col">Hora</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Segunda</td>
-                    <td>08:00 às 20:00</td>
-                </tr>
-                <tr>
-                    <td>Quarta</td>
-                    <td>08:00 às 20:00</td>
-                </tr>
-                <tr>
-                    <td>Sexta</td>
-                    <td>08:00 às 20:00</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="text-center">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Dia</th>
+                        <th scope="col">Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>08:00 às 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>08:00 às 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>08:00 às 20:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     <footer>
         <img src="./assets/img/logo-branco.png" alt="Logo branca da Barbearia Alura" />

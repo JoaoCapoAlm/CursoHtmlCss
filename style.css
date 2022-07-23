@@ -26,10 +26,6 @@
     font-style: italic;
 }
 
-.text-center {
-	text-align: center
-}
-
 #missao {
 	font-size: 20px
 }
@@ -99,7 +95,7 @@ em strong {
     border: 0;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 767px){
     #listaBeneficios, .conteudo-beneficios, .imagembeneficios {
         width: 100%;
     }

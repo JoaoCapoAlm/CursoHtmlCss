@@ -1,8 +1,3 @@
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -26,7 +21,7 @@ form label, form legend {
 
 .btnSubmit {
     width: 40%;
-    padding: 15px 0;
+    padding: 1em 0;
     background-color: #ffa500;
     color: #ffffff;
     font-weight: bold;
@@ -42,8 +37,28 @@ form label, form legend {
     transform: scale(1.2);
 }
 
+@media screen and (max-width: 767px) {
+    form {
+        margin: 1em;
+    }
+    form label, form legend {
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    #txtMensagem {
+        margin-bottom: 1em;
+    }
+
+    .input-padrao {
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
 table {
-    margin: 20px 0 40px;
+    margin: 2em 0 3em;
 }
 
 thead {
@@ -55,4 +70,13 @@ thead {
 td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .btnSubmit {
+        width: 100%;
+    }
+    table {
+        margin: 2em auto;
+    }
 }
