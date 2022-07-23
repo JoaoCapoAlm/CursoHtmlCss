@@ -11,7 +11,7 @@
 
 .principal {
 	background: #FEFEFE;
-	padding: 3em 0;
+	padding: 3em 1em;
 }
 
 .principal p {
@@ -53,7 +53,7 @@ em strong {
 
 .beneficios {
 	background: #888888;
-	padding: 3em 0;
+	padding: 3em 1em;
 }
 
 .conteudo-beneficios {
@@ -96,9 +96,10 @@ em strong {
 
 .mapa iframe {
     width: 100%;
+    border: 0;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 576px){
     #listaBeneficios, .conteudo-beneficios, .imagembeneficios {
         width: 100%;
     }
